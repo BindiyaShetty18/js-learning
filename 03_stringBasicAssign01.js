@@ -8,6 +8,6 @@ function stringBasics(){
     console.log(`My first hobby is ${hobby1} and its length is ${hobby1.length}`);
     console.log(`My first hobby is ${hobby2} and its length is ${hobby2.length}`);
     console.log(`My first hobby is ${hobby3} and its length is ${hobby3.length}`);
-    
+    console.log(`Sum of Total Number of Characters is ${hobby1.length+hobby2.length+hobby3.length}`);
 }
 stringBasics();
