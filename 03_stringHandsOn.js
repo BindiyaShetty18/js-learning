@@ -12,7 +12,7 @@ function stringHandsOn(){
         console.log(`Step 7 : Index of word "good" from the given string is - ${sentenceAfterTrim.indexOf("good")}`);
         console.log(`Step 8 : Substring starting from index 22 is - ${sentenceAfterTrim.substring(22)}`);
         console.log(`Step 9 : Check the string ends with word "up" after step 3 - ${sentenceAfterTrim.includes("up")}`);
-        console.log(`Step 9 : Check the string starts with word "Hey" after trimming - ${sentenceAfterTrim.includes("Hey")}`);
+        console.log(`Step 10 : Check the string starts with word "Hey" after trimming - ${sentenceAfterTrim.includes("Hey")}`);
 
 }       
 stringHandsOn()
