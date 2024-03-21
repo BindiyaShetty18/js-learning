@@ -28,3 +28,8 @@ console.log("result of substraction is :",resultValue);
 
 var resultValue = substract(99,42);
 console.log("result of substraction is :",resultValue);
+
+function personalDetails(firstName, lastName, collegeName){
+
+}
+personalDetails("Bindiya","Shetty","MIT");0.
