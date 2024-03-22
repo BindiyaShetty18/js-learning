@@ -44,5 +44,5 @@ const string2 = "Soon I will be a UI IT Champ";
 console.log("Odd positioned characters in string1:");
 oddPositionedChars(string1);
 
-console.log("\nOdd positioned characters in string2:");
+console.log("Odd positioned characters in string2:");
 oddPositionedChars(string2);
