@@ -1,4 +1,5 @@
 console.log("-----------------------------Step 1------------------------------");
+console.log("Vechicle Details :");
 class Vechicle {
     
     constructor(vechicleName, vechicleNumber, vechicleType, vechicleRegistrationDate, vechicleColour) {
@@ -9,7 +10,14 @@ class Vechicle {
         this.vechicleColour = vechicleColour;
     }
     details() {
-        console.log(`Vechicle Details => Name : ${this.vechicleName}, Number : ${this.vechicleNumber}, Type : ${this.vechicleType}, RegistrationDate :${this.vechicleRegistrationDate}, Colour : ${this.vechicleColour}`);
+        // console.log(`Vechicle Details => Name : ${this.vechicleName}, Number : ${this.vechicleNumber}, Type : ${this.vechicleType}, RegistrationDate :${this.vechicleRegistrationDate}, Colour : ${this.vechicleColour}`);
+        
+        console.log("----------------------------------------------------");
+        console.log(`Name : ${this.vechicleName}`);
+        console.log(`Number : ${this.vechicleNumber}`);
+        console.log(`Type Of Vechicle : ${this.vechicleType}`);
+        console.log(`Resistration Date : ${this.vechicleRegistrationDate}`);
+        console.log(`Colour : ${this.vechicleColour}`);
     }
 }
 const tvs = new Vechicle("Jupyter",41852,"TvsScooty","20/01/2023","Grey");
